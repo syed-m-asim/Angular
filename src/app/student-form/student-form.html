@@ -1,0 +1,9 @@
+<form action="" #studentform="ngForm" (ngSubmit)="onSubmit()">
+<label for="">Enter Name</label><br>
+<input type="text" name="name" id="" [(ngModel)]="student.name"><br><br>
+<label for="">Enter Email</label><br>
+<input type="email" name="email" id="" [(ngModel)]="student.email"><br><br>
+<label for="">Enter Password</label><br>
+<input type="password" name="password" id="" [(ngModel)]="student.password"><br>
+<button type="submit">Submit</button>
+</form>
